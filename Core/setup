@@ -1,1 +1,5 @@
+docker pull prateekjain87/nagios_core_nrpe
+docker run -d -p 8080:8080 --name nagios prateekjain87/nagios_core_nrpe
 
+Afterwards you can access at:
+http://YOUR_IP:8080
