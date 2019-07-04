@@ -1,1 +1,5 @@
+docker pull prateekjain87/nagios-xi
+docker run -d -p 80:80 -p 5666:5666 -p 5667:5667 --name nagiosxi prateekjain87/nagios-xi
 
+Afterwards you can access at:
+http://YOUR_IP/nagiosxi/
